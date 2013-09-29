@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="atmApp">
+<head>
+    <meta charset="utf-8">
+    <title>Symfony ATM</title>
+</head>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-resource.min.js"></script>
+<script src="js/atm.js"></script>
+
+<body ng-controller="PeopleCtrl">
+
+    <table>
+        <tr ng-repeat="person in people">
+            <td>{{person.nameFirst}}</td>
+            <td>{{person.nameLast}}</td>
+            <td>{{person.nameMiddle}}</td>
+            <td>{{person.dateOfBirth}}</td>
+        </tr>
+    </table>
+
+</body>
+</html>

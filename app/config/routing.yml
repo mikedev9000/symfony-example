@@ -1,0 +1,9 @@
+wilson_atm:
+    resource: "@WilsonAtmBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+wilson_hello:
+    resource: "@WilsonHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+
